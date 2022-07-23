@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'courier.apps.CourierConfig',
-    'delivery.apps.DeliveryConfig'
+    'delivery.apps.DeliveryConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
